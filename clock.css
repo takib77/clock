@@ -1,5 +1,22 @@
+@font-face {
+    font-family: Cyberverse;
+    src: url(./Cyberverse.otf);
+  }
+
 body {
     background-color: rgb(0, 0, 0);
-    margin: auto;
-    padding: 0;
+    font-family: Cyberverse;
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.clock p {
+    color: steelblue;
+    font-size: 128px;
+    text-align: center;
 }
